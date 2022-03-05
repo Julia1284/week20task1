@@ -1,0 +1,58 @@
+.wrapper {
+    margin: 0 auto;
+    width: 500px;
+    min-height: 90vh;
+    height: min-content;
+    background-color: rgb(180, 219, 238);
+    border-radius: 5px;
+}
+
+.container {
+    margin: 10px auto 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 400px;
+    text-align: center;
+
+
+}
+
+.scorevalue {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.card-universy,
+.card-alter,
+.card-activity,
+.card-friends,
+.card-superpowers {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: left;
+}
+
+.scoretitle {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.image {
+    width: 200px;
+
+}
+
+span {
+    font-weight: bold;
+}
+
+.liked {
+    background-color: blue;
+}
+
+.scoreresult {
+    padding-bottom: 10px;
+}

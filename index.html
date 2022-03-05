@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h2 class="title">Супергерои Марвел</h2>
+            <div class="card">
+                <!--<img src="..." class="card-img-top" alt="...">-->
+                <div class="name">
+                    <h4 class="card-name">Бэтмен</h4>
+                </div>
+                <div class="card-image"><img src="/img/batman.jpg" alt="image" class="image"></div>
+                <div class="card-universy"><span>Вселенная: </span>DC Comics</div>
+                <div class="card-alter"><span>Альтер: </span>Брюс Уэйн</div>
+                <div class="card-activity"><span>Активность: </span>Борец с преступностью, филантроп, миллиардер</div>
+                <div class="card-friends"><span>Друзья: </span>Робин, Бэтгерл</div>
+                <div class="card-superpowers"><span>Суперсила: </span>Интеллект, обширные познания, знания боевых
+                    искусств, ловкость</div>
+            </div>
+            <div class="score">
+                <div class="scoretitle">Оцените персонажа:</div>
+                <div class="scorevalue">
+                    <input type="radio" name="score" value="1">1
+                    <input type="radio" name="score" value="2">2
+                    <input type="radio" name="score" value="3">3
+                    <input type="radio" name="score" value="4">4
+                    <input type="radio" name="score" value="5">5
+                </div>
+                <div class="scoreresult"></div>
+
+            </div>
+            <button class="left"><img src="/img/left.png" alt="left"></button>
+            <button class="right"><img src="/img/right.png" alt="right"></button>
+        </div>
+    </div>
+    <script src="json.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
